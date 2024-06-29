@@ -1,14 +1,14 @@
 const Router = require('express')
-const router = new Router()
+const router_new = new Router()
 const potatoRouter = require('./potatoRouter')
 const userRouter = require('./userRouter')
 const typeRouter = require('./typeRouter')
 
 
 
-router.use('/user', userRouter)
-router.use('/type', typeRouter)
-router.use('/potato', potatoRouter)
+router_new.use('/user', userRouter, )
+//router_new.use('/type', typeRouter, )
+router_new.use('/potato', potatoRouter)
 
 
-module.exports = router
+module.exports = router_new

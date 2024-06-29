@@ -5,7 +5,7 @@ const models = require('./models/models')
 const PORT = process.env.PORT || 5000
 const cors = require('cors')
 const router = require('./router/index')
-const error = require('./middleware/ErrorHandlingMiddleWare')
+const errorHandler = require('./middleware/ErrorHandlingMiddleWare')
 
 const app = express()
 app.use(cors())
@@ -17,8 +17,6 @@ app.use(errorHandler)
 
 app.get('/', (req, res) => {
     res.status(200).json({message: 'WORKING!'}) //код 200 - все прошло хорошо
-
-
 
 })
 
