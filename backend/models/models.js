@@ -47,7 +47,7 @@ Potato.belongsTo(Type)
 Basket_potato.hasMany(Potato)
 Potato.belongsTo(Basket_potato)
 
-Potato.hasMany(Potatoinfo)
+Potato.hasMany(Potatoinfo, {as: 'info'});
 Potatoinfo.belongsTo(Potato)
 
 // экспорт всех моделей
