@@ -53,9 +53,9 @@ class   PotatoControllerr {
         const {id} = req.params
         const potato = await Potato.findOne(
             {
-                {where: {id}},
+                where: {id},
                 include: [{model: Potatoinfo, as: 'info'}]
-            }
+            },
 
         )
         return res.json(potato)

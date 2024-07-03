@@ -1,0 +1,634 @@
+﻿body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.flex-column {
+    width: 100%;
+    height: 4020px;
+    margin: 0px;
+    padding: 0px;
+}
+/*Блок 1*/
+.productSection {
+    height: 844px;
+}
+.potato-landing .osobennosti {
+    /* особенности */
+
+    position: absolute;
+    width: 207px;
+    height: 51px;
+    left: 798px;
+    top: 36px;
+    font-family: 'Irch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #000000;
+    text-decoration: none;
+}
+.potato-landing .sostav {
+    /* состав */
+
+    position: absolute;
+    width: 115px;
+    height: 51px;
+    left: 1054px;
+    top: 36px;
+    font-family: 'Irch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #000000;
+    text-decoration: none;
+}
+.potato-landing .ctaButton {
+    /* купить сейчас */
+
+    position: absolute;
+    width: 240px;
+    height: 38px;
+    left: 1218px;
+    top: 36px;
+    font-family: 'Irch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #000000;
+    text-decoration: none;
+
+}
+.potato-landing .buttonbox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 258px;
+    height: 58px;
+    left: 1207px;
+    top: 29px;
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+.potato-landing .mainTitle1 {
+    /* КАРТО */
+
+    position: absolute;
+    width: 908px;
+    height: 68px;
+    left: 289px;
+    top: 134px;
+    font-family: 'Irch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: 2.77em;
+    color: #A80000;
+}
+.potato-landing .mainTitle2 {
+    /* ФЕЛЬ */
+    position: absolute;
+    width: 695px;
+    height: 68px;
+    left: 289px;
+    top: 232px;
+    font-family: 'Irch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: 2.77em;
+    color: #A80000;
+}
+.potato-landing .mainImage {
+    width: 344px;
+    height: 465px;
+    position: absolute;
+    left: 571px;
+    right: 570px;
+    top: 304px;
+    bottom: 0px;
+    filter: drop-shadow(20px 40px 90px rgba(0, 0, 0, 0.25));
+}
+.potato-landing .secondaryImage {
+    position: absolute;
+    width: 1022px;
+    height: 209px;
+    left: 249px;
+    top: 390px;
+}
+.potato-landing .tertiaryImage {
+
+    position: absolute;
+    width: 1086px;
+    height: 214px;
+    left: 159px;
+    top: 450px;
+}
+
+/*Блок 2*/
+
+.potato-landing .contentBox {
+    background-color: white;
+    height: 769px;
+    top: 0px;
+    position: relative;
+}
+.potato-landing .rect2 {
+    position: absolute;
+    width: 1167px;
+    height: 657px;
+    left: 159px;
+    top: 55px;
+    background-color: #a80000;
+}
+.potato-landing .heroTitle2 {
+    /* СЛАДКИЙ */
+
+    position: absolute;
+    width: 446px;
+    height: 101px;
+    left: 270px;
+    top: 143px;
+    font-family: 'Angst 0';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 96px;
+    /* or 96px */
+
+    color: #FFFFFF;
+}
+.potato-landing .heroTitle21 {
+    /* Питательный */
+
+    position: absolute;
+    width: 638px;
+    height: 97px;
+    left: 361px;
+    top: 298px;
+    font-family: 'Angst 0';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 99.96%;
+    /* or 96px */
+
+    color: #FFFFFF;
+}
+.potato-landing .heroTitle22 {
+    /* ВКУСНЫЙ */
+
+    position: absolute;
+    width: 453px;
+    height: 99px;
+    left: 663px;
+    top: 453px;
+    font-family: 'Angst 0';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 99.96%;
+    /* or 96px */
+
+    color: #FFFFFF;
+}
+.potato-landing .heroTitle3 {
+    /* /01 */
+
+    position: absolute;
+    width: 170px;
+    height: 116px;
+    left: 1275px;
+    top: 27px;
+    font-family: 'Inspiration';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 99.96%;
+    /* or 128px */
+
+    color: #000000;
+}
+
+/*Блок 3*/
+
+.potato-landing .contentBox1 {
+    position: relative;
+    background-color: white;
+    /*padding: 0px 0px 0px 0px;*/
+    height: 769px;
+}
+.potato-landing .decorator {
+    /* 1678312529_bogatyr-club-p-kartoshka-logotip-foni-pinterest-8 1 */
+
+    position: absolute;
+    width: 743px;
+    height: 768px;
+    left: 742px;
+    top: 1px;
+    filter: blur(7.05px);
+}
+.potato-landing .bigTitleBox {
+    /* Rectangle 5 */
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 901px;
+    height: 139px;
+    left: 52px;
+    top: 125px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 45px;
+}
+.potato-landing .heroTitle31 {
+    /* в основе картофеля - комплекс углеводов, источник энергии для вашего организма */
+
+    position: absolute;
+    width: 829px;
+    height: 119px;
+    left: 92.27px;
+    top: 135.54px;
+    font-family: 'Angst 0';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 99.96%;
+    /* or 36px */
+
+    color: #A80000;
+}
+.potato-landing .bigTitleBox1 {
+    /* Rectangle 6 */
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 831px;
+    height: 115px;
+    left: 537px;
+    top: 320px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 45px;
+}
+.potato-landing .heroTitle32 {
+    /* Одна картофелина содержит: 110 ккл, 26г углеводов, 3г протеина, 0г жира */
+
+    position: absolute;
+    width: 736px;
+    height: 74px;
+    left: 595px;
+    top: 348px;
+    font-family: 'Angst 0';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 99.96%;
+    /* or 36px */
+
+    color: #A80000;
+}
+.potato-landing .bigTitleBox2 {
+    /* Rectangle 7 */
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 844px;
+    height: 118px;
+    left: 66px;
+    top: 506px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 45px;
+}
+.potato-landing .heroTitle33 {
+    /* Картофель состоит на 80% из воды и на 20% из твердых частиц */
+
+    position: absolute;
+    width: 748px;
+    height: 75px;
+    left: 114px;
+    top: 527px;
+    font-family: 'Angst 0';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #A80000;
+}
+.potato-landing .heroTitle34 {
+    /* /02 */
+
+    position: absolute;
+    width: 170px;
+    height: 116px;
+    left: 1275px;
+    top: 27px;
+    font-family: 'Inspiration';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 128px;
+    color: #000000;
+}
+.potato-landing .decorator1 {
+    position: absolute;
+    width: 742px;
+    height: 768px;
+    left: 0px;
+    top: 1px;
+    filter: blur(7.05px);
+}
+
+/*Блок 4*/
+
+.potato-landing .section31 {
+    background-color: #A4977D;
+    height: 769px;
+    width: 100%;
+    position: relative;
+}
+.potato-landing .image10 {
+    /* fresh-background-potatoes-close-nutrition 1 */
+
+    position: absolute;
+    width: 272px;
+    height: 214px;
+    left: 161px;
+    top: 191px;
+    filter: drop-shadow(0px 4px 82.3px rgba(0, 0, 0, 0.25));
+}
+.potato-landing .heroTitle35 {
+    /* /03 */
+
+    position: absolute;
+    width: 207px;
+    height: 108px;
+    left: 30px;
+    top: 37px;
+    font-family: 'Inspiration';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 99.96%;
+    /* or 128px */
+
+    color: #000000;
+}
+.potato-landing .image11 {
+    /* kiKoLg5LT 1 */
+
+    position: absolute;
+    width: 290px;
+    height: 250px;
+    left: 550px;
+    top: 225px;
+}
+.potato-landing .heroTitle1 {
+    /* благодаря своей уникальной структуре, картофель легко готовить и перерабатывать во всё, что пожелаете */
+
+    position: absolute;
+    width: 524px;
+    height: 195px;
+    left: 60px;
+    top: 491px;
+    font-family: 'Irch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.potato-landing .heroTitle1Box {
+    /* Rectangle 9 */
+
+    position: absolute;
+    width: 585px;
+    height: 216px;
+    left: 30px;
+    top: 483px;
+    background: #4E473A;
+    border-radius: 38px;
+}
+.potato-landing .heroTitle5 {
+    /* ЛЕГКАЯ ПЕРЕРАБОТКА */
+
+    position: absolute;
+    width: 399px;
+    height: 51px;
+    left: 762px;
+    top: 94px;
+    font-family: 'Irch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.potato-landing .heroTitle5Box {
+    /* Ellipse 4 */
+
+    position: absolute;
+    width: 629px;
+    height: 165px;
+    left: 660px;
+    top: 37px;
+}
+.potato-landing .ellipse5box {
+    /* Ellipse 5 */
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 326.17px;
+    height: 286.55px;
+    left: 134px;
+    top: 164px;
+}
+.potato-landing .image9 {
+    /* potato-table 1 */
+
+    position: absolute;
+    width: 714px;
+    height: 300px;
+    left: 600px;
+    top: 420px;
+    filter: drop-shadow(0px 4px 82.3px rgba(0, 0, 0, 0.25));
+}
+.potato-landing .image12 {
+    /* image 1 */
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 411px;
+    height: 203px;
+    left: 1043px;
+    top: 225px;
+    border: 5px solid #4E473A;
+    border-radius: 53px;
+}
+.potato-landing .image13 {
+    /* image 2 */
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 194px;
+    height: 262px;
+    left: 1249px;
+    top: 483px;
+    border: 5px solid #4E473A;
+    filter: drop-shadow(0px 4px 179.6px rgba(0, 0, 0, 0.25));
+    border-radius: 120px;
+}
+
+/*Блок 5*/
+
+.potato-landing .section41 {
+    height: 769px;
+    width: 100%;
+    position: relative;
+}
+.potato-landing .heroTitle {
+    /* сделайте заказ сегодня! */
+
+    position: absolute;
+    width: 546px;
+    height: 68px;
+    left: 437px;
+    top: 107px;
+    font-family: 'Irch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    color: #A80000;
+}
+.potato-landing .vector3 {
+    /* Vector 3 */
+
+    position: absolute;
+    width: 692.92px;
+    height: 214px;
+    left: 363px;
+    top: 26px;
+}
+.potato-landing .heroTitle4 {
+    /* перейти в магазин → */
+
+    position: absolute;
+    width: 795.97px;
+    height: 103px;
+    left: 368.25px;
+    top: 333px;
+    font-family: 'Irch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 96px;
+    color: #000000;
+}
+.potato-landing .heroTitle4box {
+    /* Rectangle 8 */
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 873px;
+    height: 190px;
+    left: 306px;
+    top: 290px;
+    border: 1px solid #000000;
+    border-radius: 49px;
+}
+.potato-landing .image7 {
+    /* image 4 */
+
+    position: absolute;
+    width: 464px;
+    height: 271px;
+    left: 531px;
+    top: 490px;
+}
+.potato-landing .vector1 {
+    /* Vector 1 */
+
+    position: absolute;
+    width: 321.14px;
+    height: 638.93px;
+    left: 0px;
+    top: 66px;
+}
+.potato-landing .vector2 {
+    /* Vector 2 */
+
+    position: absolute;
+    width: 374px;
+    height: 734px;
+    top: 26px;
+    right: 0;
+}
+.potato-landing .vector5 {
+    /* Vector 5 */
+
+    position: absolute;
+    width: 146.69px;
+    height: 577.72px;
+    left: 3px;
+    top: 66px;
+}
+.potato-landing .vector6 {
+    /* Vector 6 */
+
+    position: absolute;
+    width: 286px;
+    height: 258px;
+    top: 32px;
+    right: 0;
+}
+
+/*Футер*/
+
+.potato-landing .footerSection {
+    height: 177px;
+    width: 100%;
+    position: relative;
+}
+.potato-landing .heroTitle11 {
+    /* проект выполнен в учебных целях */
+
+    position: absolute;
+    width: 609px;
+    height: 51px;
+    left: 38px;
+    top: 74px;
+    font-family: 'Irch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #000000;
+}
+   
+@font-face {
+    font-family: "Irch";
+    src: url("../fonts/irch-regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Angst 0";
+    src: url("https://db.onlinewebfonts.com/t/19729a7989e4b4ea76975cbde8c696a6.eot");
+    src: url("https://db.onlinewebfonts.com/t/19729a7989e4b4ea76975cbde8c696a6.eot?#iefix")format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/19729a7989e4b4ea76975cbde8c696a6.woff2")format("woff2"), url("https://db.onlinewebfonts.com/t/19729a7989e4b4ea76975cbde8c696a6.woff")format("woff"), url("https://db.onlinewebfonts.com/t/19729a7989e4b4ea76975cbde8c696a6.ttf")format("truetype"), url("https://db.onlinewebfonts.com/t/19729a7989e4b4ea76975cbde8c696a6.svg#Angst 0")format("svg");
+}
+@font-face {
+    font-family: "Inspiration";
+    src: url("../fonts/inspiration.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
