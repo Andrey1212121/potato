@@ -1,0 +1,451 @@
+@use "utils" as *;
+@use "global" as *;
+
+.potato-landing {
+  &.main {
+    display: flex;
+    flex-direction: column;
+  }
+  .productSection {
+    display: flex;
+    flex-direction: column;
+  }
+  .headerSection {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 6px 0px 2px;
+    background-color: rgb(255, 255, 255);
+  }
+  .contentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 111px 0px;
+    margin: 14px 5.07% 30px auto;
+    width: 80.76%;
+  }
+  .titleContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 60px 0px;
+  }
+  .actionRow {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 10px;
+    margin: 0px 0px 0px auto;
+    width: 667px;
+  }
+  .highlightTitle {
+    margin: 0px 0px 10px;
+    min-width: 0px;
+    font: 400 48px/0.99 "Irch regular", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .ctaButton {
+    display: flex;
+    justify-content: center;
+    min-width: 258px;
+    font: 400 48px/0.99 "Irch regular", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5px 10px 5px 10px;
+    outline: 1px solid rgb(0, 0, 0);
+    outline-offset: -1px;
+  }
+  .mainTitle {
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    font: 400 96px/0.99 "Irch regular", Helvetica, Arial, serif;
+    color: rgb(168, 0, 0);
+    text-align: center;
+    letter-spacing: 206.4px;
+  }
+  .imageGroup {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 23.56%;
+    width: 484px;
+  }
+  .mainImage {
+    width: 100%;
+    filter: drop-shadow(101px 58px 179.10000610351562px rgba(0, 0, 0, 0.247));
+  }
+  .secondaryImage {
+    position: absolute;
+    top: 164px;
+    left: -330px;
+    width: 1185px;
+    height: 209px;
+  }
+  .tertiaryImage {
+    position: absolute;
+    top: 329px;
+    left: -452px;
+    width: 1182px;
+    height: 214px;
+    filter: drop-shadow(0px 4px 76.5999984741211px rgba(0, 0, 0, 0.247));
+  }
+  .featuresSection {
+    display: flex;
+    flex-direction: column;
+  }
+  .flexCol {
+    display: flex;
+    flex-direction: column;
+    gap: 1px 0px;
+    margin: 1px 6px 0px 2px;
+  }
+  .contentBox {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+  }
+  .group {
+    display: flex;
+    flex-direction: column;
+    margin: 37px 0px 104px 78px;
+    width: 1362px;
+    min-width: 0px;
+  }
+  .group1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 68px auto 0px;
+    width: 94.27%;
+  }
+  .rect2 {
+    min-height: 814px;
+    background-color: rgb(168, 0, 0);
+  }
+  .group2 {
+    position: absolute;
+    top: 69px;
+    left: 67px;
+    display: flex;
+    flex-direction: column;
+    width: 1295px;
+    height: 552px;
+  }
+  .flexCol1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 86px 0px;
+    width: 1295px;
+    height: 552px;
+  }
+  .heroTitle2 {
+    min-width: 0px;
+    font: 400 128px/0.99 "Angst-Regular", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .heroTitle21 {
+    margin: 0px auto;
+    min-width: 0px;
+    font: 400 128px/0.99 "Angst-Regular", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .image3 {
+    margin: 0px 0px 0px auto;
+    width: 846px;
+  }
+  .heroTitle3 {
+    position: absolute;
+    top: -137px;
+    right: 83px;
+    width: 159px;
+    height: 128px;
+    font: 400 128px/0.99 "Inspiration", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .contentBox1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 0px 0px 0px;
+  }
+  .decorator {
+    position: absolute;
+    top: -14px;
+    left: 570px;
+    width: 876px;
+    height: 1052px;
+    filter: blur(7.05px);
+  }
+  .group3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 125px 159px 220px 55px;
+    width: 1226px;
+    height: 678px;
+  }
+  .flexCol2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .bigTitle {
+    width: 844px;
+    font: 400 36px/0.99 "Angst-Regular", Helvetica, Arial, serif;
+    color: rgb(168, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 45px 45px 45px 45px;
+    padding: 11px 71px 26px 25px;
+    outline: 2px solid rgb(0, 0, 0);
+    outline-offset: -2px;
+  }
+  .bigTitle1 {
+    margin: 116px 0px 0px auto;
+    width: 844px;
+    font: 400 36px/0.99 "Angst-Regular", Helvetica, Arial, serif;
+    color: rgb(168, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 45px 45px 45px 45px;
+    padding: 22px 48px 51px 48px;
+    outline: 2px solid rgb(0, 0, 0);
+    outline-offset: -2px;
+  }
+  .bigTitle2 {
+    margin: 127px 0px 0px 5.87%;
+    width: 844px;
+    font: 400 36px/0.99 "Angst-Regular", Helvetica, Arial, serif;
+    color: rgb(168, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 45px 45px 45px 45px;
+    padding: 22px 42px 51px 54px;
+    outline: 2px solid rgb(0, 0, 0);
+    outline-offset: -2px;
+  }
+  .heroTitle31 {
+    position: absolute;
+    top: -94px;
+    right: -82px;
+    width: 186px;
+    height: 128px;
+    font: 400 128px/0.99 "Inspiration", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .decorator1 {
+    position: absolute;
+    top: -14px;
+    left: -2px;
+    width: 601px;
+    height: 1052px;
+    filter: blur(7.05px);
+  }
+  .nutritionSection {
+    display: flex;
+    flex-direction: column;
+  }
+  .section31 {
+    display: flex;
+    flex-direction: column;
+    margin: 1px 6px 0px 2px;
+    background-color: rgb(236, 236, 236);
+  }
+  .flexRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px 10px;
+    margin: 30px 17px 15px 37px;
+  }
+  .flexCol3 {
+    display: flex;
+    flex-direction: column;
+    gap: 147px 0px;
+    width: 528px;
+    min-width: 0px;
+  }
+  .contentBox2 {
+    display: flex;
+    flex-direction: column;
+    width: 88.07%;
+    background: var(--src) center center / 100% 100% no-repeat;
+    padding: 12px 0px 33px 0px;
+  }
+  .group4 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 12px 0px 33px;
+  }
+  .image10 {
+    width: 100%;
+    filter: drop-shadow(0px 4px 82.30000305175781px rgba(0, 0, 0, 0.247));
+  }
+  .heroTitle32 {
+    position: absolute;
+    top: -81px;
+    left: 0px;
+    width: 186px;
+    height: 128px;
+    font: 400 128px/0.99 "Inspiration", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .image11 {
+    position: absolute;
+    right: -223px;
+    bottom: -153px;
+    width: 288px;
+    height: 300px;
+  }
+  .heroTitle1 {
+    font: 400 48px/0.99 "Irch regular", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .flexCol4 {
+    display: flex;
+    flex-direction: column;
+    gap: 127px 0px;
+    width: 818px;
+    min-width: 0px;
+  }
+  .heroTitle5 {
+    display: flex;
+    justify-content: center;
+    width: 75.43%;
+    font: 400 48px/0.99 "Irch regular", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background: var(--src) center center / 100% 100% no-repeat;
+    padding: 57px 16px 60px 16px;
+  }
+  .flexCol5 {
+    display: flex;
+    flex-direction: column;
+    gap: 87px 0px;
+    margin: 0px 0px 0px auto;
+    width: 543px;
+  }
+  .group5 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .image9 {
+    position: absolute;
+    bottom: -426px;
+    left: -290px;
+    width: 613px;
+    height: 595px;
+    filter: drop-shadow(0px 4px 82.30000305175781px rgba(0, 0, 0, 0.247));
+  }
+  .image12 {
+    width: 100%;
+    border-radius: 53px 53px 53px 53px;
+  }
+  .image13 {
+    margin: 0px 10px 0px auto;
+    width: 240px;
+    border-radius: 120px 120px 120px 120px;
+    filter: drop-shadow(0px 4px 179.60000610351562px rgba(0, 0, 0, 0.247));
+  }
+  .orderSection {
+    display: flex;
+    flex-direction: column;
+  }
+  .section41 {
+    display: flex;
+    flex-direction: column;
+    margin: 1px 6px 1px 2px;
+    background-color: rgb(255, 255, 255);
+  }
+  .group6 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 18px auto 0px;
+    width: 958px;
+  }
+  .flexCol6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 246px 0px;
+  }
+  .heroTitle {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font: 400 96px/0.99 "Irch regular", Helvetica, Arial, serif;
+    color: rgb(168, 0, 0);
+    text-align: center;
+    background: var(--src) center center / 100% 100% no-repeat;
+    padding: 111px 16px 64px 16px;
+  }
+  .flexCol7 {
+    display: flex;
+    flex-direction: column;
+    gap: 86px 0px;
+    width: 92.28%;
+  }
+  .heroTitle4 {
+    position: absolute;
+    top: -143px;
+    left: -64px;
+    display: flex;
+    justify-content: center;
+    width: 1122px;
+    height: 189px;
+    font: 400 128px/0.99 "Irch regular", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 49px 49px 49px 49px;
+    padding: 42px 16px 19px 16px;
+    outline: 1px solid rgb(0, 0, 0);
+    outline-offset: -1px;
+  }
+  .image5 {
+    width: 100%;
+  }
+  .image7 {
+    margin: 0px 22px 0px auto;
+    width: 82.58%;
+  }
+  .contentBox3 {
+    position: absolute;
+    top: 345px;
+    left: -215px;
+    display: flex;
+    flex-direction: column;
+    width: 323px;
+    height: 640px;
+    background: var(--src) center center / 100% 100% no-repeat;
+  }
+  .image17 {
+    margin: 0px 0px 63px;
+    width: 147px;
+  }
+  .contentBox4 {
+    position: absolute;
+    top: 114px;
+    right: -275px;
+    display: flex;
+    flex-direction: column;
+    width: 374px;
+    height: 770px;
+    background: var(--src) center center / 100% 100% no-repeat;
+  }
+  .image6 {
+    margin: 1px 8px 511px auto;
+    width: 76.47%;
+  }
+  .footerSection {
+    display: flex;
+    flex-direction: column;
+  }
+  .heroTitle11 {
+    margin: 0px 6px 0px 2px;
+    font: 400 48px/0.99 "Irch regular", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 74px 38px 55px 38px;
+  }
+}

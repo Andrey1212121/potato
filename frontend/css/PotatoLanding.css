@@ -13,6 +13,7 @@ html, body {
     margin: 0px;
     padding: 0px;
 }
+
 /*Блок 1*/
 .productSection {
     height: 844px;
@@ -205,14 +206,14 @@ html, body {
     /* /01 */
 
     position: absolute;
-    width: 170px;
-    height: 116px;
-    left: 1275px;
+    width: 85px;
+    height: 58px;
+    left: 1304px;
     top: 27px;
     font-family: 'Inspiration';
     font-style: normal;
     font-weight: 400;
-    font-size: 128px;
+    font-size: 96px;
     line-height: 99.96%;
     /* or 128px */
 
@@ -231,10 +232,9 @@ html, body {
     /* 1678312529_bogatyr-club-p-kartoshka-logotip-foni-pinterest-8 1 */
 
     position: absolute;
-    width: 743px;
-    height: 768px;
-    left: 742px;
-    top: 1px;
+    width: 50%;
+    height: 769px;
+    right: 0;
     filter: blur(7.05px);
 }
 .potato-landing .bigTitleBox {
@@ -265,7 +265,7 @@ html, body {
     line-height: 99.96%;
     /* or 36px */
 
-    color: #A80000;
+    color: black;
 }
 .potato-landing .bigTitleBox1 {
     /* Rectangle 6 */
@@ -295,7 +295,7 @@ html, body {
     line-height: 99.96%;
     /* or 36px */
 
-    color: #A80000;
+    color: black;
 }
 .potato-landing .bigTitleBox2 {
     /* Rectangle 7 */
@@ -322,36 +322,35 @@ html, body {
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
-    color: #A80000;
+    color: black;
 }
 .potato-landing .heroTitle34 {
     /* /02 */
 
     position: absolute;
-    width: 170px;
-    height: 116px;
-    left: 1275px;
+    width: 85px;
+    height: 58px;
+    left: 1304px;
     top: 27px;
     font-family: 'Inspiration';
     font-style: normal;
     font-weight: 400;
-    font-size: 128px;
+    font-size: 96px;
     line-height: 128px;
     color: #000000;
 }
 .potato-landing .decorator1 {
     position: absolute;
-    width: 742px;
-    height: 768px;
+    width: 50%;
+    height: 769px;
     left: 0px;
-    top: 1px;
     filter: blur(7.05px);
 }
 
 /*Блок 4*/
 
 .potato-landing .section31 {
-    background-color: #A4977D;
+    background-color: #786C57;
     height: 769px;
     width: 100%;
     position: relative;
@@ -370,14 +369,14 @@ html, body {
     /* /03 */
 
     position: absolute;
-    width: 207px;
-    height: 108px;
+    width: 85px;
+    height: 58px;
     left: 30px;
     top: 37px;
     font-family: 'Inspiration';
     font-style: normal;
     font-weight: 400;
-    font-size: 128px;
+    font-size: 96px;
     line-height: 99.96%;
     /* or 128px */
 
