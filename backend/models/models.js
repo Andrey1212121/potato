@@ -23,10 +23,6 @@ const Potato = sequelize.define('potato', { // характеристики ка
     img: {type: DataTypes.STRING, allowNull: false}, // Должно быть какое-либо значение
 })
 
-const Type = sequelize.define('type', { // тип картофеля
-    id: {type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true}, // id повторяться не может 
-    name: {type: DataTypes.STRING, unique: true, allowNull: false} // уникальное название и не должно повторяться
-})
 
 const Potatoinfo = sequelize.define('potato_info', { // информация о картофеле
     id: {type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true}, // id повторяться не может 
@@ -41,9 +37,7 @@ Basket.belongsTo(User)
 Basket.hasMany(Basket_potato)
 Basket_potato.belongsTo(Basket)
 
-Type.hasMany(Potato)
-Potato.belongsTo(Type)
-
+ 
 Basket_potato.hasMany(Potato)
 Potato.belongsTo(Basket_potato)
 
@@ -55,7 +49,6 @@ module.exports = {
     User, 
     Basket,
     Basket_potato,
-    Type,
     Potato,
     Potatoinfo
 }

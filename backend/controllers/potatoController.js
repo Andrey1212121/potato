@@ -9,7 +9,7 @@ class   PotatoControllerr {
         try{
             let {name, price, info} = req.body
             const {img} = req.files
-            let fileName = uuid.v4 + ".jpg"//создание имени файла фото
+            let fileName = uuid.v4() + ".jpg"//создание имени файла фото
             img.mv(path.resolve(__dirname, '..', 'static', fileName))
             
             if (info) {
@@ -25,7 +25,7 @@ class   PotatoControllerr {
 
             const potato = await Potato.create({name, price, img:fileName})
     
-            return res.json(device)
+            return res.json(potato)
 
         } catch (e){
             next(ApiError.badRequest(e.message))
@@ -34,10 +34,10 @@ class   PotatoControllerr {
     
     async getAll(req, res){
         const types = await Type.findAll()
-        return res.json(types)
+        //return res.json(types)
         let {typeId, limit, page} = req.query // добавляем постраничный вывод
-        page = page || 1
-        limit = limit || 9
+        page = page > 1
+        limit = limit > 9
         let offset = page * limit - limit // отступ
         let potato;
         if (!typeId) {
@@ -62,4 +62,4 @@ class   PotatoControllerr {
     }
 }
 
-module.exports = new PotatoController()
+module.exports = new PotatoControllerr()
